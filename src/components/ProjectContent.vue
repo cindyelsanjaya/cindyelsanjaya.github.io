@@ -17,7 +17,7 @@
           >
             {{ project.desc }}
           </p>
-          <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 items-stretch py-5">
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 items-stretch py-5">
             <div class="flex flex-col items-start mb-5 items-center">
               <img class="w-19 h-16" :src="project.image1" />
               <p
@@ -52,7 +52,7 @@
             </div>
           </div>
 
-          <div class="flex items-stretch justify-center border py-5">
+          <div class="flex items-stretch justify-center py-5">
             <a
               class="btn text-white font-bold py-2 px-4 border-b-4 rounded"
               :href="project.link"

@@ -1,7 +1,7 @@
 <template>
   <div class="header flex justify-center items-center px-16 pb-8">
     <div class="container mx-auto w-screen">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch py-5">
+      <div class="grid grid-cols-3 gap-8 items-stretch py-5">
         <div
           v-for="left1 in left1"
           :key="left1.name"
